@@ -1,0 +1,1 @@
+<html><head><meta charset="utf-8" /></head><body><script type="text/javascript" nonce="QspJaus0">document.location.replace("http:\/\/yahoo.com\/");</script></body></html>

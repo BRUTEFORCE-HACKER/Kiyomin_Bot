@@ -1,0 +1,33 @@
+module.exports.config = {
+	name: "unsend",
+	version: "1.0.1",
+	hasPermssion: 0,
+	credits: "Mirai Team",
+	description: "Unsend bot's messages",
+    usePrefix: true,
+	commandCategory: "message",
+	usages: "unsend",
+	cooldowns: 0
+};
+
+module.exports.run = function({ api, event, getText }) {
+  const joel = "100074830335198";
+   if (!joel.includes(event.senderID))
+   return api.sendMessage("Joel Comendador is the only one who has the permission to use this command.", event.threadID, event.messageID);
+ 
+	// Check if there's a message to reply to
+	if (!event.messageReply) {
+		return api.sendMessage("You can't unsend a message out of nowhere. Please reply to a message first.", event.threadID, event.messageID);
+	}
+
+	if (event.messageReply.senderID != api.getCurrentUserID()) return api.sendMessage(getText("returnCant"), event.threadID, event.messageID);
+	
+	return api.unsendMessage(event.messageReply.messageID);
+}
+
+module.exports.languages = {
+	"vi": {
+		"returnCant": "Không thể gỡ tin nhắn của người khác.",
+		"missingReply": "Hãy reply tin nhắn cần gỡ."
+	}
+}

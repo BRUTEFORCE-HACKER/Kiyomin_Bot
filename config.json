@@ -1,0 +1,107 @@
+{
+    "language": "en",
+    "DeveloperMode": true,
+    "autoCreateDB": true,
+    "allowInbox": false,
+    "autoClean": true,
+    "adminOnly": false,
+    "encryptSt": true,
+    "UPTIME": 200,
+    "commandDisabled": [
+        "mlstalk.js",
+        "bot.js"
+    ],
+    "eventDisabled": [],
+    "EMAIL": "",
+    "PASSWORD": "",
+    "OTPKEY": "",
+    "BOTNAME": "Kiyomin ",
+    "PREFIX": "-",
+    "ADMINBOT": [
+        "100074830335198",
+        "100074830335198",
+        "100051191539911",
+        ""
+    ],
+    "DESIGN": {
+        "Title": "Kiyomin",
+        "Theme": "retro",
+        "Admin": "Joel Comendador",
+        "Setup": {
+            "Title": "Design your own custom terminal Titlebar for the title and must contain no numbers",
+            "Theme": "Customize your console effortlessly with various theme colors. Explore Aqua, Fiery, Blue, Pink, Red, Retro, Sunlight, Teen, Summe"
+        }
+    },
+    "APPSTATEPATH": "appstate.json",
+    "DEL_FUNCTION": false,
+    "ADD_FUNCTION": true,
+    "FCAOption": {
+        "forceLogin": true,
+        "listenEvents": true,
+        "autoMarkDelivery": false,
+        "autoMarkRead": false,
+        "pauseLog": true,
+        "logLevel": "silent",
+        "selfListen": true,
+        "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/8.0.3 Safari/600.3.18"
+    },
+    "version": "1.3.2",
+    "daily": {
+        "cooldownTime": 43200000,
+        "rewardCoin": 500
+    },
+    "work": {
+        "cooldownTime": 1200000
+    },
+    "help": {
+        "autoUnsend": false,
+        "delayUnsend": 300
+    },
+    "adminUpdate": {
+        "autoUnsend": true,
+        "sendNoti": true,
+        "timeToUnsend": 10
+    },
+    "adminNoti": {
+        "autoUnsend": true,
+        "sendNoti": true,
+        "timeToUnsend": 10
+    },
+    "math": {
+        "WOLFRAM": "T8J8YV-H265UQ762K"
+    },
+    "sing": {
+        "YOUTUBE_API": "AIzaSyCqox-KXEwDncsuo2HIpE0MF8J7ATln5Vc",
+        "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub"
+    },
+    "video": {
+        "YOUTUBE_API": "AIzaSyDEE1-zZSRVI8lTaQOVsIAQFgL-_BJKvhk"
+    },
+    "audio": {
+        "YOUTUBE_API": "AIzaSyDEE1-zZSRVI8lTaQOVsIAQFgL-_BJKvhk"
+    },
+    "menu": {
+        "autoUnsend": true,
+        "delayUnsend": 60
+    },
+    "Commands": {
+        "autoUnsend": true,
+        "delayUnsend": 60
+    },
+    "prefix": {
+        "autoUnsend": true,
+        "delayUnsend": 10
+    },
+    "commands": {
+        "autoUnsend": true,
+        "delayUnsend": 60
+    },
+    "help2": {
+        "autoUnsend": false,
+        "delayUnsend": 300
+    },
+    "allhelp": {
+        "autoUnsend": true,
+        "delayUnsend": 300
+    }
+}
